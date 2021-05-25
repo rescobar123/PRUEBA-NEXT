@@ -2,7 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\FindPelis;
-use App\Http\Livewire\Algoritmos;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -29,7 +28,6 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 Route::middleware(['auth:sanctum', 'verified'])->get('/algoritmos', function () {
     return view('algoritmos');
 })->name('algoritmos');
-
 Route::post('add', [FindPelis::class, 'addPeli']);
 Route::post('delete', [FindPelis::class, 'deletePeli']);
 

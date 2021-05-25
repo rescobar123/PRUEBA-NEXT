@@ -19,8 +19,8 @@
                         Buscador ppelis
                     </x-jet-nav-link>
                     <x-jet-nav-link :active="request()->routeIs('algoritmos')" href="{{ route('algoritmos') }}" >
-                       Algoritmos
-                    </x-jet-nav-link>
+                        Algoritmos
+                     </x-jet-nav-link>
                 </div>
             </div>
 
