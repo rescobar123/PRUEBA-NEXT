@@ -1,5 +1,4 @@
 <div>
-
     <x-slot name="header">
         <h2 class="font-bold text-xl text-blue-800 leading-tight">
             Ppelis

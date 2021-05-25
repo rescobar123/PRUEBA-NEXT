@@ -18,6 +18,9 @@
                     <x-jet-nav-link :active="request()->routeIs('home')" href="{{ route('home') }}" >
                         Buscador ppelis
                     </x-jet-nav-link>
+                    <x-jet-nav-link :active="request()->routeIs('algoritmos')" href="{{ route('algoritmos') }}" >
+                       Algoritmos
+                    </x-jet-nav-link>
                 </div>
             </div>
 
